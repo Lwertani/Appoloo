@@ -16,9 +16,18 @@ li :hover {
     color: #105044!important;
     transition: 0.5s !important;
 }
-h2 {
+.info {
+    margin-top: 20px;
     font-family: Staatliches, cursive;
-    font-size: 80px;
+    font-size: 20px!important;
+    color: #f3ebeb !important;
+    line-height: 1.5;
+    word-spacing: 3px
+}
+
+h1 {
+    font-family: Staatliches, cursive;
+    font-size: 80px!important;
     color: #f3ebeb;
 }
 span {
@@ -26,24 +35,23 @@ span {
 }
 .main1 {
     max-width: 60%;
-    margin-top: 15%;
+    margin-top: 5%;
     margin-left: 2%
 }
 
-@media screen and (min-width: 910px) and (max-width: 1040px) {
-    h2{
-        font-size: 70px;
-    }
+label{
+    font-family: Staatliches, cursive;
+    font-size: 35px;
+    color: #f3ebeb;  
 }
 
-@media screen and (min-width: 620px) and (max-width: 909px) {
-    h2{
-        font-size: 50px;
-    }
+.btn-primary{
+background-color: #105044 ;
+border: none;
+width: 200px;
+height: 40px;
 }
 
-@media screen and (min-width: 100px) and (max-width: 619px) {
-    h2{
-        font-size: 30px;
-    }
+.form-check-label{
+    font-size: 18px;
 }
