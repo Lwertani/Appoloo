@@ -3,6 +3,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 0;
+    min-height:100vh
 }
 .navbar-brand {
     font-size: 50px;
@@ -21,7 +22,7 @@ li :hover {
     margin-top: 20px;
     font-family: Staatliches, cursive;
     font-size: 20px;
-    color: #f3ebeb !important;
+    color: #f3ebeb;
     line-height: 1.5;
     word-spacing: 3px;
     background-color:hsla(0, 0%, 0%, 0.6);
@@ -35,7 +36,7 @@ h1 {
     color: #f3ebeb;
 }
 span {
-    color: #105044!important;
+    color: #105044;
 }
 .main1 {
     max-width: 60%;

@@ -19,35 +19,34 @@ li :hover {
 }
 
 
-h1 {
-    font-family: Staatliches, cursive;
-    font-size: 80px;
-    color: #f3ebeb;
-}
 
 .main1 {
-    max-width: 40%;
-    margin-top: 5%;
-    margin-left: 4%
+    max-width: 50%;
+    margin-top: 10%;
+    margin-left: 2%;
 }
 
 label{
     font-family: Staatliches, cursive;
-    font-size: 30px;
+    font-size: 35px;
     color: #f3ebeb;  
 }
 
 .btn-primary{
-    background-color: #105044 ;
-    border: none;
-    width: 200px;
-    height: 40px;
-    margin-bottom: 40px;
-    margin-top: 20px;
-    margin-left: 25%;
-    position: relative;
-    }
+background-color: #105044 ;
+border: none;
+width: 200px;
+height: 40px;
+margin-bottom: 40px;
+margin-top: 30px;
+margin-left: 33%;
+position: relative;
+}
 
 .form-check-label{
     font-size: 18px;
+}
+
+.form-group{
+margin-top: 50px;
 }

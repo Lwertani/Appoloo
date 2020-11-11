@@ -3,6 +3,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 0;
+    min-height:100vh;
 }
 .navbar-brand {
     font-size: 50px;
@@ -22,7 +23,7 @@ h2 {
     color: #f3ebeb;
 }
 span {
-    color: #105044!important;
+    color: #105044;
 }
 .main1 {
     max-width: 60%;
