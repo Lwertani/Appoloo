@@ -1,10 +1,13 @@
 body {
     background-image: url(../images/cover.png);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     margin-bottom: 0;
-
+    background-size: 100%;
+    max-height: 100vh;
 }
+
+
 .navbar-brand {
     font-size: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -14,7 +17,7 @@ body {
     margin-left: 20px!important;
 }
 li :hover {
-    color: #105044!important;
+    color: #21a089!important;
     transition: 0.5s !important;
 }
 .info {
@@ -47,13 +50,13 @@ span {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    background-color: #105044;
+    background-color:hsla(118, 89%, 7%, 0.486);
     border-radius: 20px;
     
 }
 
 .grid__container {
-    width: 100%;
+    max-width: 100%;
     display: grid;
     grid-template-columns: repeat(9 1fr);
     grid-template-rows: repeat(32 1fr);
@@ -128,7 +131,7 @@ img {
 }
 
 img:hover {
-    opacity: 0.6;
+    opacity: 0.7;
     transition: 0.5s;
 }
 

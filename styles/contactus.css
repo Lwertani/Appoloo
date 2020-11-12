@@ -1,10 +1,12 @@
 body {
     background-image: url(../images/cover.png);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     margin-bottom: 0;
-    min-height:100vh
+    background-size: 100%;
+    max-height: 100vh;
 }
+
 .navbar-brand {
     font-size: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -30,25 +32,56 @@ li :hover {
     
 }
 
-h1 {
+h2 {
     font-family: Staatliches, cursive;
-    font-size: 80px;
+    font-size: 40px;
     color: #f3ebeb;
+    background-color:hsla(0, 0%, 0%, 0.575);
+    border-radius: 10px;
 }
 span {
     color: #105044;
 }
 .main1 {
-    max-width: 60%;
-    margin-top: 5%;
-    margin-left: 2%
+    max-width: 45%;
+    margin-top: 3%;
+    margin-left: 28%;
+    text-align: center;
 }
 
-@media screen and (max-width: 690px) {
-    h1 {
-        font-size: 50px;
+@media screen and (max-width: 890px) {
+    .social{
+        left: -30%;
     }
-    .info {
-        font-size: 15px;
+    h2 {
+        font-size: 20px;
     }
+ 
+
 }
+
+  svg{
+      margin-left: 50px;
+  }
+
+  svg :hover{
+      fill: gray;
+  }
+
+  .social{
+      display: flex;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: 9%;
+      position: relative;
+  }
+
+  a {
+     text-decoration: none;
+     color: #1f8a76;
+  }
+
+  .animate__animated.animate__swing {
+    --animate-duration: 40s;
+  }
+  
