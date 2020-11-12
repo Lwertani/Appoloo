@@ -17,7 +17,7 @@ body {
 }
 li :hover {
     color: #21a089!important;
-    transition: 0.5s !important;
+    transition: 0.6s !important;
 }
 .info {
     padding: 5px;
