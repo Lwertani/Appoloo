@@ -1,7 +1,7 @@
 body {
     background-image: url(../images/cover.png);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     margin-bottom: 0;
     background-size: 100%;
     max-height: 100vh;
